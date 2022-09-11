@@ -13,7 +13,7 @@ addShape();
 render();
 
 function addShape() {
-  let num = 20,
+  let num = 30,
     distance = 10,
     offset = 30;
   for (let i = 0; i < num; i++) {
@@ -54,7 +54,7 @@ function init() {
     antialias: true,
     alpha: true,
   });
-  renderer.setClearColor(0x2f8e70);
+  renderer.setClearColor(0x222222);
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(width, height);
 
